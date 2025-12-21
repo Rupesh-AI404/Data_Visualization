@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-y = np.array([35, 25, 25, 15])
-mylabels = ["Apples", "Bananas", "Cherries", "Dates"]
+y = np.array([35, 25, 25, 15, 30])
+mylabels = ["Apples", "Bananas", "cherries", "Dates", "Elderberries"]
 
 plt.pie(y, labels = mylabels)
 plt.show()
