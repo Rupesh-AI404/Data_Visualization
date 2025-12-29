@@ -17,6 +17,6 @@ from numpy import random
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-sns.displot(random.uniform(low=4.0, high=10.0, size=2000), kind="kde")
+sns.displot(random.uniform(low=4.0, high=10.0, size=4000), kind="kde")
 
 plt.show()
