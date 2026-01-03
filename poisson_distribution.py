@@ -14,6 +14,6 @@ from numpy import random
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-sns.displot(random.poisson(lam=2, size=6000))
+sns.displot(random.poisson(lam=2, size=4000))
 
 plt.show()
