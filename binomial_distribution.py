@@ -5,6 +5,8 @@
 
 # n - number of trials.
 
+#trails - trails is an alias for n
+
 # p - probability of occurrence of each trial (e.g. for toss of a coin 0.5 each).
 
 # size - The shape of the returned array.
