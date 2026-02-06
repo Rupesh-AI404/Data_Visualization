@@ -12,7 +12,7 @@ from numpy import random
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-x = random.zipf(a=4, size=2000)
+x = random.zipf(a=5, size=2000)
 sns.displot(x[x<10])
 
 plt.show()
