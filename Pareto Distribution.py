@@ -14,7 +14,7 @@ import seaborn as sns
 
 sns.displot(random.pareto(a=6, size= 1000))
 
-sns.histplot(random.pareto(a=6, size= 1000))
+sns.histplot(random.pareto(a=6, size= 2000))
 
 
 plt.show()
